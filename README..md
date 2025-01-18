@@ -1,4 +1,4 @@
-👋 Hi, I’m @Uzma-Niaz
+ Hi, I’m @Uzma-Niaz
 
 👀 About Me:-
 💡 Interests:
