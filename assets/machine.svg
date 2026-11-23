@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="384" viewBox="0 0 1200 384" role="img" aria-label="The Automation Machine"><title>The Automation Machine</title><style>
+.mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace}
+.sans{font-family:'Space Grotesk','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800}
+</style><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10131F"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8F6BFF"/><stop offset=".55" stop-color="#5AE0FF"/><stop offset="1" stop-color="#8F6BFF"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8F6BFF" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" fill-opacity=".022"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur8" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+
+</defs>
+<clipPath id="cardclip"><rect x="2" y="2" width="1196" height="380" rx="18"/></clipPath>
+<g clip-path="url(#cardclip)">
+  <rect width="1200" height="384" fill="url(#bg)"/>
+  <rect width="1200" height="384" fill="url(#grid)"/>
+  <rect width="1200" height="384" fill="url(#scan)"/>
+</g>
+<rect x="2" y="2" width="1196" height="380" rx="18" fill="none" stroke="url(#edge)" stroke-width="3" filter="url(#blur8)" opacity=".45">
+  <animate attributeName="opacity" values=".25;.6;.25" dur="6s" repeatCount="indefinite"/>
+</rect>
+<rect x="2" y="2" width="1196" height="380" rx="18" fill="none" stroke="url(#edge)" stroke-width="1.2" stroke-opacity=".85"/>
+<text x="36" y="46" class="mono" font-size="13" letter-spacing="3" fill="#F5B800">// LIVE DEMO</text>
+<text x="36" y="84" class="sans" font-size="30" fill="#E6E8F2">The Automation Machine</text>
+<rect x="36" y="98" width="56" height="3" rx="1.5" fill="#8F6BFF" filter="url(#glow)">
+  <animate attributeName="width" values="56;96;56" dur="5s" repeatCount="indefinite"/>
+</rect>
+<g transform="translate(908 30)"><rect width="256" height="30" rx="15" fill="#F5B800" fill-opacity=".08" stroke="#F5B800" stroke-opacity=".8"/><circle cx="16" cy="15" r="4" fill="#F5B800"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle><text x="28" y="19.5" class="mono" font-size="12" letter-spacing="1.5" fill="#F5B800">SIMULATION · SAMPLE DATA</text></g>
+<text x="1164" y="84" text-anchor="end" class="mono" font-size="12" fill="#9AA3C7">modelled on my n8n “Invoice Agent” workflow</text>
+<line x1="190.0" x2="227.6" y1="195.0" y2="195.0" stroke="#8F6BFF" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 7"><animate attributeName="stroke-dashoffset" values="24;0" dur="1.6s" repeatCount="indefinite"/></line>
+<circle cy="195.0" r="5" fill="#5AE0FF" filter="url(#glow)" cx="190.0"><animate attributeName="cx" values="190.0;190.0;227.6;190.0;190.0" keyTimes="0.0000;0.1029;0.1429;0.1549;1.0000" dur="14.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0909;0.1029;0.1429;0.1549;1.0000" dur="14.0s" repeatCount="indefinite"/></circle>
+<line x1="385.6" x2="423.2" y1="195.0" y2="195.0" stroke="#8F6BFF" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 7"><animate attributeName="stroke-dashoffset" values="24;0" dur="1.6s" repeatCount="indefinite"/></line>
+<circle cy="195.0" r="5" fill="#5AE0FF" filter="url(#glow)" cx="385.6"><animate attributeName="cx" values="385.6;385.6;423.2;385.6;385.6" keyTimes="0.0000;0.2457;0.2857;0.2977;1.0000" dur="14.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2337;0.2457;0.2857;0.2977;1.0000" dur="14.0s" repeatCount="indefinite"/></circle>
+<line x1="581.2" x2="618.8" y1="195.0" y2="195.0" stroke="#8F6BFF" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 7"><animate attributeName="stroke-dashoffset" values="24;0" dur="1.6s" repeatCount="indefinite"/></line>
+<circle cy="195.0" r="5" fill="#5AE0FF" filter="url(#glow)" cx="581.2"><animate attributeName="cx" values="581.2;581.2;618.8;581.2;581.2" keyTimes="0.0000;0.3886;0.4286;0.4406;1.0000" dur="14.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.3766;0.3886;0.4286;0.4406;1.0000" dur="14.0s" repeatCount="indefinite"/></circle>
+<line x1="776.8" x2="814.4" y1="195.0" y2="195.0" stroke="#8F6BFF" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 7"><animate attributeName="stroke-dashoffset" values="24;0" dur="1.6s" repeatCount="indefinite"/></line>
+<circle cy="195.0" r="5" fill="#5AE0FF" filter="url(#glow)" cx="776.8"><animate attributeName="cx" values="776.8;776.8;814.4;776.8;776.8" keyTimes="0.0000;0.5314;0.5714;0.5834;1.0000" dur="14.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5194;0.5314;0.5714;0.5834;1.0000" dur="14.0s" repeatCount="indefinite"/></circle>
+<line x1="972.4" x2="1010.0" y1="195.0" y2="195.0" stroke="#8F6BFF" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 7"><animate attributeName="stroke-dashoffset" values="24;0" dur="1.6s" repeatCount="indefinite"/></line>
+<circle cy="195.0" r="5" fill="#5AE0FF" filter="url(#glow)" cx="972.4"><animate attributeName="cx" values="972.4;972.4;1010.0;972.4;972.4" keyTimes="0.0000;0.6743;0.7143;0.7263;1.0000" dur="14.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6623;0.6743;0.7143;0.7263;1.0000" dur="14.0s" repeatCount="indefinite"/></circle>
+<g>
+<rect x="36.0" y="136" width="150" height="118" rx="14" fill="#141829" stroke="#8F6BFF" stroke-opacity=".35"/>
+<rect x="36.0" y="136" width="150" height="118" rx="14" fill="#8F6BFF" fill-opacity=".06" stroke="#8F6BFF" stroke-opacity=".9" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1429;0.1549;0.8571;0.8931;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<rect x="36.0" y="136" width="150" height="118" rx="14" fill="#5AE0FF" fill-opacity=".10" stroke="#5AE0FF" stroke-width="2" filter="url(#glow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0001;0.0240;0.1429;0.1669;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<text x="48.0" y="156" class="mono" font-size="11" fill="#F5B800">01</text>
+<path transform="translate(97.0 158.0) scale(1.1667)" d="M21.4737 5.6842c-1.1772 0-2.1663.8051-2.4468 1.8947h-2.8955c-1.235 0-2.289.893-2.492 2.111l-.1038.623a1.263 1.263 0 0 1-1.246 1.0555H11.289c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947s-2.1663.8051-2.4467 1.8947H4.973c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947C1.1311 9.4737 0 10.6047 0 12s1.131 2.5263 2.5263 2.5263c1.1772 0 2.1663-.8051 2.4468-1.8947h1.4223c.2804 1.0896 1.2696 1.8947 2.4467 1.8947 1.1772 0 2.1663-.8051 2.4468-1.8947h1.0008a1.263 1.263 0 0 1 1.2459 1.0555l.1038.623c.203 1.218 1.257 2.111 2.492 2.111h.3692c.2804 1.0895 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263c-1.1772 0-2.1664.805-2.4468 1.8947h-.3692a1.263 1.263 0 0 1-1.246-1.0555l-.1037-.623A2.52 2.52 0 0 0 13.9607 12a2.52 2.52 0 0 0 .821-1.4794l.1038-.623a1.263 1.263 0 0 1 1.2459-1.0555h2.8955c.2805 1.0896 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263m0 1.2632a1.263 1.263 0 0 1 1.2631 1.2631 1.263 1.263 0 0 1-1.2631 1.2632 1.263 1.263 0 0 1-1.2632-1.2632 1.263 1.263 0 0 1 1.2632-1.2631M2.5263 10.7368A1.263 1.263 0 0 1 3.7895 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 1.2632 12a1.263 1.263 0 0 1 1.2631-1.2632m6.3158 0A1.263 1.263 0 0 1 10.1053 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 7.579 12a1.263 1.263 0 0 1 1.2632-1.2632m10.1053 3.7895a1.263 1.263 0 0 1 1.2631 1.2632 1.263 1.263 0 0 1-1.2631 1.2631 1.263 1.263 0 0 1-1.2632-1.2631 1.263 1.263 0 0 1 1.2632-1.2632" fill="#EA4B71" />
+<text x="111.0" y="218" text-anchor="middle" class="sans" font-size="17" fill="#E6E8F2">Webhook</text>
+<text x="111.0" y="238" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">invoice.pdf arrives</text>
+</g>
+<g>
+<rect x="231.6" y="136" width="150" height="118" rx="14" fill="#141829" stroke="#8F6BFF" stroke-opacity=".35"/>
+<rect x="231.6" y="136" width="150" height="118" rx="14" fill="#8F6BFF" fill-opacity=".06" stroke="#8F6BFF" stroke-opacity=".9" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2857;0.2977;0.8571;0.8931;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<rect x="231.6" y="136" width="150" height="118" rx="14" fill="#5AE0FF" fill-opacity=".10" stroke="#5AE0FF" stroke-width="2" filter="url(#glow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1429;0.1669;0.2857;0.3097;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<text x="243.6" y="156" class="mono" font-size="11" fill="#F5B800">02</text>
+<g transform="translate(295.6 158)" fill="none" stroke="#E6E8F2" stroke-width="1.8" stroke-linejoin="round"><path d="M0 0h14l8 8v20H0z"/><path d="M14 0v8h8M5 15h12M5 20h12"/></g>
+<text x="306.6" y="218" text-anchor="middle" class="sans" font-size="17" fill="#E6E8F2">Extract</text>
+<text x="306.6" y="238" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">PDF → plain text</text>
+</g>
+<g>
+<rect x="427.2" y="136" width="150" height="118" rx="14" fill="#141829" stroke="#8F6BFF" stroke-opacity=".35"/>
+<rect x="427.2" y="136" width="150" height="118" rx="14" fill="#8F6BFF" fill-opacity=".06" stroke="#8F6BFF" stroke-opacity=".9" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4286;0.4406;0.8571;0.8931;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<rect x="427.2" y="136" width="150" height="118" rx="14" fill="#5AE0FF" fill-opacity=".10" stroke="#5AE0FF" stroke-width="2" filter="url(#glow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2857;0.3097;0.4286;0.4526;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<text x="439.2" y="156" class="mono" font-size="11" fill="#F5B800">03</text>
+<path transform="translate(488.2 158.0) scale(1.1667)" d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z" fill="#FFFFFF" />
+<text x="502.2" y="218" text-anchor="middle" class="sans" font-size="17" fill="#E6E8F2">OpenAI</text>
+<text x="502.2" y="238" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">AI reads &amp; parses</text>
+</g>
+<g>
+<rect x="622.8" y="136" width="150" height="118" rx="14" fill="#141829" stroke="#8F6BFF" stroke-opacity=".35"/>
+<rect x="622.8" y="136" width="150" height="118" rx="14" fill="#8F6BFF" fill-opacity=".06" stroke="#8F6BFF" stroke-opacity=".9" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5714;0.5834;0.8571;0.8931;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<rect x="622.8" y="136" width="150" height="118" rx="14" fill="#5AE0FF" fill-opacity=".10" stroke="#5AE0FF" stroke-width="2" filter="url(#glow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4286;0.4526;0.5714;0.5954;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<text x="634.8" y="156" class="mono" font-size="11" fill="#F5B800">04</text>
+<g transform="translate(697.8 172)" fill="none" stroke="#E6E8F2" stroke-width="1.8"><rect x="-11" y="-11" width="22" height="22" transform="rotate(45)"/><path d="M-6 0l4 4 8-8"/></g>
+<text x="697.8" y="218" text-anchor="middle" class="sans" font-size="17" fill="#E6E8F2">Validate</text>
+<text x="697.8" y="238" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">is it an invoice?</text>
+</g>
+<g>
+<rect x="818.4" y="136" width="150" height="118" rx="14" fill="#141829" stroke="#8F6BFF" stroke-opacity=".35"/>
+<rect x="818.4" y="136" width="150" height="118" rx="14" fill="#8F6BFF" fill-opacity=".06" stroke="#8F6BFF" stroke-opacity=".9" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7143;0.7263;0.8571;0.8931;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<rect x="818.4" y="136" width="150" height="118" rx="14" fill="#5AE0FF" fill-opacity=".10" stroke="#5AE0FF" stroke-width="2" filter="url(#glow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5714;0.5954;0.7143;0.7383;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<text x="830.4" y="156" class="mono" font-size="11" fill="#F5B800">05</text>
+<path transform="translate(879.4 158.0) scale(1.1667)" d="M11.318 12.545H7.91v-1.909h3.41v1.91zM14.728 0v6h6l-6-6zm1.363 10.636h-3.41v1.91h3.41v-1.91zm0 3.273h-3.41v1.91h3.41v-1.91zM20.727 6.5v15.864c0 .904-.732 1.636-1.636 1.636H4.909a1.636 1.636 0 0 1-1.636-1.636V1.636C3.273.732 4.005 0 4.909 0h9.318v6.5h6.5zm-3.273 2.773H6.545v7.909h10.91v-7.91zm-6.136 4.636H7.91v1.91h3.41v-1.91z" fill="#34A853" />
+<text x="893.4" y="218" text-anchor="middle" class="sans" font-size="17" fill="#E6E8F2">Sheets + DB</text>
+<text x="893.4" y="238" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">row saved</text>
+</g>
+<g>
+<rect x="1014.0" y="136" width="150" height="118" rx="14" fill="#141829" stroke="#8F6BFF" stroke-opacity=".35"/>
+<rect x="1014.0" y="136" width="150" height="118" rx="14" fill="#8F6BFF" fill-opacity=".06" stroke="#8F6BFF" stroke-opacity=".9" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8571;0.8691;0.8692;0.8931;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<rect x="1014.0" y="136" width="150" height="118" rx="14" fill="#5AE0FF" fill-opacity=".10" stroke="#5AE0FF" stroke-width="2" filter="url(#glow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7143;0.7383;0.8571;0.8811;1.0000" dur="14.0s" repeatCount="indefinite"/></rect>
+<text x="1026.0" y="156" class="mono" font-size="11" fill="#F5B800">06</text>
+<path transform="translate(1075.0 158.0) scale(1.1667)" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#EA4335" />
+<text x="1089.0" y="218" text-anchor="middle" class="sans" font-size="17" fill="#E6E8F2">Gmail</text>
+<text x="1089.0" y="238" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">reply goes out</text>
+</g>
+<rect x="36" y="288" width="1128" height="62" rx="12" fill="#0A0D16" stroke="#8F6BFF" stroke-opacity=".3"/>
+<text x="54" y="310" class="mono" font-size="11" letter-spacing="2" fill="#9AA3C7">EXECUTION LOG · sample data</text>
+<text x="54" y="334" class="mono" font-size="14" fill="#E6E8F2" opacity="0">&gt; POST /webhook/invoice   file: &quot;INV-0042.pdf&quot;<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0001;0.0120;0.1309;0.1429;1.0000" dur="14.0s" repeatCount="indefinite"/></text>
+<text x="54" y="334" class="mono" font-size="14" fill="#E6E8F2" opacity="0">&gt; extract-from-file: PDF text extracted<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1429;0.1549;0.2737;0.2857;1.0000" dur="14.0s" repeatCount="indefinite"/></text>
+<text x="54" y="334" class="mono" font-size="14" fill="#E6E8F2" opacity="0">&gt; openai: { vendor: &quot;Acme Supplies&quot;, total: &quot;$1,240.00&quot;, due: &quot;2026-12-05&quot; }<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2857;0.2977;0.4166;0.4286;1.0000" dur="14.0s" repeatCount="indefinite"/></text>
+<text x="54" y="334" class="mono" font-size="14" fill="#E6E8F2" opacity="0">&gt; if: total &gt; 0 ✓   vendor found ✓   → valid invoice<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4286;0.4406;0.5594;0.5714;1.0000" dur="14.0s" repeatCount="indefinite"/></text>
+<text x="54" y="334" class="mono" font-size="14" fill="#E6E8F2" opacity="0">&gt; google sheets: row appended   ·   supabase: record upserted<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5714;0.5834;0.7023;0.7143;1.0000" dur="14.0s" repeatCount="indefinite"/></text>
+<text x="54" y="334" class="mono" font-size="14" fill="#E6E8F2" opacity="0">&gt; gmail: &quot;Invoice INV-0042 received&quot; → accounts@example.com<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7143;0.7263;0.8451;0.8571;1.0000" dur="14.0s" repeatCount="indefinite"/></text>
+<text x="54" y="334" class="mono" font-size="14" fill="#5AE0FF" opacity="0">✓ workflow complete — looping the simulation…<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.8571;0.8691;0.9880;1.0000" dur="14.0s" repeatCount="indefinite"/></text>
+<rect x="36" y="348" width="0" height="2" rx="1" fill="#5AE0FF" filter="url(#glow)"><animate attributeName="width" values="0;1128" dur="14.0s" repeatCount="indefinite"/></rect></svg>

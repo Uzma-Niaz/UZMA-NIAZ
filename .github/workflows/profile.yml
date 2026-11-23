@@ -1,0 +1,54 @@
+name: Refresh profile graphics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily, 03:17 UTC
+  workflow_dispatch:         # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "profile.json"
+      - "scripts/**"
+      - "assets/icons/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build cards + README from profile.json
+        run: python scripts/build_cards.py
+
+      - name: Build dashboard from live GitHub data
+        run: python scripts/build_dashboard.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#5AE0FF&color_dots=#161B2E,#2E2366,#4D3AA3,#6E52D6,#8F6BFF
+
+      - name: Commit changes
+        run: |
+          cp dist/snake.svg assets/generated/snake.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets
+          git diff --staged --quiet || git commit -m "chore: refresh profile graphics"
+          git push

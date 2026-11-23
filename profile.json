@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "username": "Uzma-Niaz",
+  "repo": "UZMA-NIAZ",
+  "branch": "main",
+
+  "name": "Uzma Niaz",
+  "title": "AI Automation Expert",
+  "subtitle": "Computer Science Student · Learning and Building",
+
+  "links": {
+    "website": "",
+    "linkedin": "",
+    "email": "uzmaniaz176@gmail.com"
+  },
+
+  "typing_lines": [
+    "Building AI automations with n8n + OpenAI",
+    "Resume screening · Invoice agents · RAG assistants",
+    "Turning repetitive work into workflows",
+    "CS student - learning and building in public",
+    "C++ · JavaScript · Java · Supabase"
+  ],
+
+  "about": [
+    "Computer Science student who loves turning repetitive work into automated workflows.",
+    "I build AI automations in n8n: resume screening, invoice processing, feedback handling and RAG knowledge assistants.",
+    "Strengthening my programming foundations in C++ and JavaScript along the way.",
+    "Open to beginner-friendly open-source and automation projects."
+  ],
+  "focus": [
+    "n8n workflows & webhooks",
+    "AI agents & RAG assistants",
+    "Document & invoice automation",
+    "C++ / JavaScript fundamentals"
+  ],
+
+  "project": {
+    "name": "n8n-Automation-Workflows",
+    "description": "A collection of ready-to-import n8n workflows: AI resume screening, invoice extraction, feedback automation and RAG knowledge assistants.",
+    "url": "https://github.com/Uzma-Niaz/n8n-Automation-Workflows",
+    "workflows": ["Feedback Automation", "HR Resume", "Invoice Agent", "Meezan Bank HR Assistant", "RAG Knowledge Assistant"],
+    "command": "git clone https://github.com/Uzma-Niaz/n8n-Automation-Workflows.git",
+    "command_note": "Then in n8n: Workflows → Import from File → pick any .json"
+  },
+
+  "stack": {
+    "Automation": ["n8n", "Webhooks", "Gmail", "Google Drive Triggers"],
+    "AI": ["OpenAI", "AI Agents", "RAG", "Embeddings", "Pinecone"],
+    "Code": ["C++", "C", "Java", "JavaScript", "CSS"],
+    "Data": ["Supabase", "Google Sheets", "Google Drive"]
+  },
+
+  "toolkit": [
+    {"name": "n8n", "icon": "n8n", "color": "#EA4B71"},
+    {"name": "OpenAI", "icon": "openai", "color": "#FFFFFF"},
+    {"name": "Supabase", "icon": "supabase", "color": "#3FCF8E"},
+    {"name": "Google Sheets", "icon": "googlesheets", "color": "#34A853"},
+    {"name": "Gmail", "icon": "gmail", "color": "#EA4335"},
+    {"name": "Google Drive", "icon": "googledrive", "color": "#4285F4"}
+  ],
+
+  "quote": "I've started talking to myself when debugging code. It's weird, but it works!"
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34" role="img" aria-label="divider"><title>divider</title><style>
+.mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace}
+.sans{font-family:'Space Grotesk','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800}
+</style><defs>
+<linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#8F6BFF" stop-opacity="0"/><stop offset=".3" stop-color="#8F6BFF"/><stop offset=".5" stop-color="#5AE0FF"/><stop offset=".7" stop-color="#8F6BFF"/><stop offset="1" stop-color="#8F6BFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-20%" y="-300%" width="140%" height="700%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<line x1="40" x2="1160" y1="17" y2="17" stroke="url(#ln)" stroke-width="1.6" filter="url(#glow)"/>
+<rect x="-200" y="16" width="180" height="2" fill="url(#sw)">
+  <animate attributeName="x" values="-200;1220" dur="7s" repeatCount="indefinite"/>
+</rect>
+<g transform="translate(600.0 17)">
+  <rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#0D1117" stroke="#F5B800" stroke-width="1.6" filter="url(#glow)">
+    <animate attributeName="stroke-opacity" values=".4;1;.4" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <circle r="2.4" fill="#F5B800"/>
+</g>
+<circle cx="530.0" cy="17" r="2" fill="#5AE0FF"/><circle cx="670.0" cy="17" r="2" fill="#5AE0FF"/></svg>

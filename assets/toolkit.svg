@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="296" viewBox="0 0 1200 296" role="img" aria-label="Automation Toolkit"><title>Automation Toolkit</title><style>
+.mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace}
+.sans{font-family:'Space Grotesk','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800}
+</style><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10131F"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8F6BFF"/><stop offset=".55" stop-color="#5AE0FF"/><stop offset="1" stop-color="#8F6BFF"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8F6BFF" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" fill-opacity=".022"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur8" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+
+</defs>
+<clipPath id="cardclip"><rect x="2" y="2" width="1196" height="292" rx="18"/></clipPath>
+<g clip-path="url(#cardclip)">
+  <rect width="1200" height="296" fill="url(#bg)"/>
+  <rect width="1200" height="296" fill="url(#grid)"/>
+  <rect width="1200" height="296" fill="url(#scan)"/>
+</g>
+<rect x="2" y="2" width="1196" height="292" rx="18" fill="none" stroke="url(#edge)" stroke-width="3" filter="url(#blur8)" opacity=".45">
+  <animate attributeName="opacity" values=".25;.6;.25" dur="6s" repeatCount="indefinite"/>
+</rect>
+<rect x="2" y="2" width="1196" height="292" rx="18" fill="none" stroke="url(#edge)" stroke-width="1.2" stroke-opacity=".85"/>
+<text x="36" y="46" class="mono" font-size="13" letter-spacing="3" fill="#F5B800">// AUTOMATION TOOLKIT</text>
+<text x="36" y="84" class="sans" font-size="30" fill="#E6E8F2">Automation Toolkit</text>
+<rect x="36" y="98" width="56" height="3" rx="1.5" fill="#8F6BFF" filter="url(#glow)">
+  <animate attributeName="width" values="56;96;56" dur="5s" repeatCount="indefinite"/>
+</rect>
+<g>
+<rect x="36.0" y="128" width="160" height="128" rx="16" fill="#141829" stroke="#8F6BFF" stroke-opacity=".45">
+  <animate attributeName="stroke-opacity" values=".3;.9;.3" dur="6s" begin="0.0s" repeatCount="indefinite"/></rect>
+<circle cx="116.0" cy="180" r="30" fill="#EA4B71" opacity=".12" filter="url(#blur8)"/>
+<path transform="translate(94.0 158.0) scale(1.8333)" d="M21.4737 5.6842c-1.1772 0-2.1663.8051-2.4468 1.8947h-2.8955c-1.235 0-2.289.893-2.492 2.111l-.1038.623a1.263 1.263 0 0 1-1.246 1.0555H11.289c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947s-2.1663.8051-2.4467 1.8947H4.973c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947C1.1311 9.4737 0 10.6047 0 12s1.131 2.5263 2.5263 2.5263c1.1772 0 2.1663-.8051 2.4468-1.8947h1.4223c.2804 1.0896 1.2696 1.8947 2.4467 1.8947 1.1772 0 2.1663-.8051 2.4468-1.8947h1.0008a1.263 1.263 0 0 1 1.2459 1.0555l.1038.623c.203 1.218 1.257 2.111 2.492 2.111h.3692c.2804 1.0895 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263c-1.1772 0-2.1664.805-2.4468 1.8947h-.3692a1.263 1.263 0 0 1-1.246-1.0555l-.1037-.623A2.52 2.52 0 0 0 13.9607 12a2.52 2.52 0 0 0 .821-1.4794l.1038-.623a1.263 1.263 0 0 1 1.2459-1.0555h2.8955c.2805 1.0896 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263m0 1.2632a1.263 1.263 0 0 1 1.2631 1.2631 1.263 1.263 0 0 1-1.2631 1.2632 1.263 1.263 0 0 1-1.2632-1.2632 1.263 1.263 0 0 1 1.2632-1.2631M2.5263 10.7368A1.263 1.263 0 0 1 3.7895 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 1.2632 12a1.263 1.263 0 0 1 1.2631-1.2632m6.3158 0A1.263 1.263 0 0 1 10.1053 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 7.579 12a1.263 1.263 0 0 1 1.2632-1.2632m10.1053 3.7895a1.263 1.263 0 0 1 1.2631 1.2632 1.263 1.263 0 0 1-1.2631 1.2631 1.263 1.263 0 0 1-1.2632-1.2631 1.263 1.263 0 0 1 1.2632-1.2632" fill="#EA4B71" />
+<text x="116.0" y="236" text-anchor="middle" class="mono" font-size="13" fill="#E6E8F2">n8n</text>
+</g>
+<g>
+<rect x="229.6" y="128" width="160" height="128" rx="16" fill="#141829" stroke="#8F6BFF" stroke-opacity=".45">
+  <animate attributeName="stroke-opacity" values=".3;.9;.3" dur="6s" begin="0.8s" repeatCount="indefinite"/></rect>
+<circle cx="309.6" cy="180" r="30" fill="#FFFFFF" opacity=".12" filter="url(#blur8)"/>
+<path transform="translate(287.6 158.0) scale(1.8333)" d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z" fill="#FFFFFF" />
+<text x="309.6" y="236" text-anchor="middle" class="mono" font-size="13" fill="#E6E8F2">OpenAI</text>
+</g>
+<g>
+<rect x="423.2" y="128" width="160" height="128" rx="16" fill="#141829" stroke="#8F6BFF" stroke-opacity=".45">
+  <animate attributeName="stroke-opacity" values=".3;.9;.3" dur="6s" begin="1.6s" repeatCount="indefinite"/></rect>
+<circle cx="503.2" cy="180" r="30" fill="#3FCF8E" opacity=".12" filter="url(#blur8)"/>
+<path transform="translate(481.2 158.0) scale(1.8333)" d="M11.9 1.036c-.015-.986-1.26-1.41-1.874-.637L.764 12.05C-.33 13.427.65 15.455 2.409 15.455h9.579l.113 7.51c.014.985 1.259 1.408 1.873.636l9.262-11.653c1.093-1.375.113-3.403-1.645-3.403h-9.642z" fill="#3FCF8E" />
+<text x="503.2" y="236" text-anchor="middle" class="mono" font-size="13" fill="#E6E8F2">Supabase</text>
+</g>
+<g>
+<rect x="616.8" y="128" width="160" height="128" rx="16" fill="#141829" stroke="#8F6BFF" stroke-opacity=".45">
+  <animate attributeName="stroke-opacity" values=".3;.9;.3" dur="6s" begin="2.4s" repeatCount="indefinite"/></rect>
+<circle cx="696.8" cy="180" r="30" fill="#34A853" opacity=".12" filter="url(#blur8)"/>
+<path transform="translate(674.8 158.0) scale(1.8333)" d="M11.318 12.545H7.91v-1.909h3.41v1.91zM14.728 0v6h6l-6-6zm1.363 10.636h-3.41v1.91h3.41v-1.91zm0 3.273h-3.41v1.91h3.41v-1.91zM20.727 6.5v15.864c0 .904-.732 1.636-1.636 1.636H4.909a1.636 1.636 0 0 1-1.636-1.636V1.636C3.273.732 4.005 0 4.909 0h9.318v6.5h6.5zm-3.273 2.773H6.545v7.909h10.91v-7.91zm-6.136 4.636H7.91v1.91h3.41v-1.91z" fill="#34A853" />
+<text x="696.8" y="236" text-anchor="middle" class="mono" font-size="13" fill="#E6E8F2">Google Sheets</text>
+</g>
+<g>
+<rect x="810.4" y="128" width="160" height="128" rx="16" fill="#141829" stroke="#8F6BFF" stroke-opacity=".45">
+  <animate attributeName="stroke-opacity" values=".3;.9;.3" dur="6s" begin="3.2s" repeatCount="indefinite"/></rect>
+<circle cx="890.4" cy="180" r="30" fill="#EA4335" opacity=".12" filter="url(#blur8)"/>
+<path transform="translate(868.4 158.0) scale(1.8333)" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#EA4335" />
+<text x="890.4" y="236" text-anchor="middle" class="mono" font-size="13" fill="#E6E8F2">Gmail</text>
+</g>
+<g>
+<rect x="1004.0" y="128" width="160" height="128" rx="16" fill="#141829" stroke="#8F6BFF" stroke-opacity=".45">
+  <animate attributeName="stroke-opacity" values=".3;.9;.3" dur="6s" begin="4.0s" repeatCount="indefinite"/></rect>
+<circle cx="1084.0" cy="180" r="30" fill="#4285F4" opacity=".12" filter="url(#blur8)"/>
+<path transform="translate(1062.0 158.0) scale(1.8333)" d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z" fill="#4285F4" />
+<text x="1084.0" y="236" text-anchor="middle" class="mono" font-size="13" fill="#E6E8F2">Google Drive</text>
+</g><defs><linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/>
+<stop offset=".5" stop-color="#5AE0FF" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<g clip-path="url(#cardclip)"><rect x="-260" y="0" width="220" height="316" fill="url(#sweep)" transform="skewX(-18)">
+<animate attributeName="x" values="-300;1500" dur="8s" repeatCount="indefinite"/></rect></g></svg>

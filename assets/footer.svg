@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Built in public"><title>Built in public</title><style>
+.mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace}
+.sans{font-family:'Space Grotesk','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800}
+</style><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10131F"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8F6BFF"/><stop offset=".55" stop-color="#5AE0FF"/><stop offset="1" stop-color="#8F6BFF"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8F6BFF" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" fill-opacity=".022"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur8" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+<linearGradient id="word" x1="0" x2="1" gradientUnits="objectBoundingBox">
+<stop offset="0" stop-color="#8F6BFF"/><stop offset=".5" stop-color="#5AE0FF"/><stop offset="1" stop-color="#8F6BFF"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="9s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<clipPath id="cardclip"><rect x="2" y="2" width="1196" height="186" rx="18"/></clipPath>
+<g clip-path="url(#cardclip)"><rect width="1200" height="190" fill="url(#bg)"/><rect width="1200" height="190" fill="url(#grid)"/><rect width="1200" height="190" fill="url(#scan)"/></g>
+<rect x="2" y="2" width="1196" height="186" rx="18" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<path d="M40,132 L52,132 L64,132 L76,126 L88,140 L100,92 L112,166 L124,122 L136,132 L148,132 L160,132 L172,132 L184,132 L196,126 L208,140 L220,92 L232,166 L244,122 L256,132 L268,132 L280,132 L292,132 L304,132 L316,126 L328,140 L340,92 L352,166 L364,122 L376,132 L388,132 L400,132 L412,132 L424,132 L436,126 L448,140 L460,92 L472,166 L484,122 L496,132 L508,132 L520,132 L532,132 L544,132 L556,126 L568,140 L580,92 L592,166 L604,122 L616,132 L628,132 L640,132 L652,132 L664,132 L676,126 L688,140 L700,92 L712,166 L724,122 L736,132 L748,132 L760,132 L772,132 L784,132 L796,126 L808,140 L820,92 L832,166 L844,122 L856,132 L868,132 L880,132 L892,132 L904,132 L916,126 L928,140 L940,92 L952,166 L964,122 L976,132 L988,132 L1000,132 L1012,132 L1024,132 L1036,126 L1048,140 L1060,92 L1072,166 L1084,122 L1096,132 L1108,132 L1120,132 L1132,132 L1144,132 L1156,126 L1168,140 L1180,92 L1192,166 L1204,122 L1216,132 L1228,132" fill="none" stroke="#8F6BFF" stroke-opacity=".25" stroke-width="1.5"/>
+<path d="M40,132 L52,132 L64,132 L76,126 L88,140 L100,92 L112,166 L124,122 L136,132 L148,132 L160,132 L172,132 L184,132 L196,126 L208,140 L220,92 L232,166 L244,122 L256,132 L268,132 L280,132 L292,132 L304,132 L316,126 L328,140 L340,92 L352,166 L364,122 L376,132 L388,132 L400,132 L412,132 L424,132 L436,126 L448,140 L460,92 L472,166 L484,122 L496,132 L508,132 L520,132 L532,132 L544,132 L556,126 L568,140 L580,92 L592,166 L604,122 L616,132 L628,132 L640,132 L652,132 L664,132 L676,126 L688,140 L700,92 L712,166 L724,122 L736,132 L748,132 L760,132 L772,132 L784,132 L796,126 L808,140 L820,92 L832,166 L844,122 L856,132 L868,132 L880,132 L892,132 L904,132 L916,126 L928,140 L940,92 L952,166 L964,122 L976,132 L988,132 L1000,132 L1012,132 L1024,132 L1036,126 L1048,140 L1060,92 L1072,166 L1084,122 L1096,132 L1108,132 L1120,132 L1132,132 L1144,132 L1156,126 L1168,140 L1180,92 L1192,166 L1204,122 L1216,132 L1228,132" fill="none" stroke="#5AE0FF" stroke-width="2" filter="url(#glow)" stroke-dasharray="160 3200">
+  <animate attributeName="stroke-dashoffset" values="160;-3200" dur="10s" repeatCount="indefinite"/></path>
+<text x="600.0" y="78" text-anchor="middle" class="sans" font-size="44" letter-spacing="12" fill="#8F6BFF" filter="url(#blur8)" opacity=".7">BUILT IN PUBLIC
+  <animate attributeName="opacity" values=".4;.85;.4" dur="6s" repeatCount="indefinite"/></text>
+<text x="600.0" y="78" text-anchor="middle" class="sans" font-size="44" letter-spacing="12" fill="url(#word)">BUILT IN PUBLIC</text>
+<text x="600.0" y="174" text-anchor="middle" class="mono" font-size="13" letter-spacing="2" fill="#9AA3C7">
+  <tspan fill="#F5B800">◆</tspan>  Uzma Niaz  ·  learning &amp; building  ·  github.com/Uzma-Niaz  <tspan fill="#F5B800">◆</tspan></text></svg>
