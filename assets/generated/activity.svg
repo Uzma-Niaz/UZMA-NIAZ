@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Activity Graph"><title>Activity Graph</title><style>
+.mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace}
+.sans{font-family:'Space Grotesk','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800}
+</style><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10131F"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8F6BFF"/><stop offset=".55" stop-color="#5AE0FF"/><stop offset="1" stop-color="#8F6BFF"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8F6BFF" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" fill-opacity=".022"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur8" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+
+</defs>
+<clipPath id="cardclip"><rect x="2" y="2" width="1196" height="376" rx="18"/></clipPath>
+<g clip-path="url(#cardclip)">
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#grid)"/>
+  <rect width="1200" height="380" fill="url(#scan)"/>
+</g>
+<rect x="2" y="2" width="1196" height="376" rx="18" fill="none" stroke="url(#edge)" stroke-width="3" filter="url(#blur8)" opacity=".45">
+  <animate attributeName="opacity" values=".25;.6;.25" dur="6s" repeatCount="indefinite"/>
+</rect>
+<rect x="2" y="2" width="1196" height="376" rx="18" fill="none" stroke="url(#edge)" stroke-width="1.2" stroke-opacity=".85"/>
+<text x="36" y="46" class="mono" font-size="13" letter-spacing="3" fill="#F5B800">// ACTIVITY</text>
+<text x="36" y="84" class="sans" font-size="30" fill="#E6E8F2">Activity Graph</text>
+<rect x="36" y="98" width="56" height="3" rx="1.5" fill="#8F6BFF" filter="url(#glow)">
+  <animate attributeName="width" values="56;96;56" dur="5s" repeatCount="indefinite"/>
+</rect>
+<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8F6BFF" stop-opacity=".45"/>
+<stop offset="1" stop-color="#8F6BFF" stop-opacity="0"/></linearGradient></defs>
+<line x1="80" x2="1160" y1="330.0" y2="330.0" stroke="#8F6BFF" stroke-opacity=".12"/><text x="66" y="334.0" text-anchor="end" class="mono" font-size="11" fill="#9AA3C7">0</text>
+<line x1="80" x2="1160" y1="130.0" y2="130.0" stroke="#8F6BFF" stroke-opacity=".12"/><text x="66" y="134.0" text-anchor="end" class="mono" font-size="11" fill="#9AA3C7">1</text>
+<text x="80.0" y="354" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">24 Oct</text>
+<text x="260.0" y="354" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">29 Oct</text>
+<text x="440.0" y="354" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">03 Nov</text>
+<text x="620.0" y="354" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">08 Nov</text>
+<text x="800.0" y="354" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">13 Nov</text>
+<text x="980.0" y="354" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">18 Nov</text>
+<text x="1160.0" y="354" text-anchor="middle" class="mono" font-size="11" fill="#9AA3C7">23 Nov</text>
+<path d="M80.0,330.0 L116.0,330.0 L152.0,330.0 L188.0,330.0 L224.0,330.0 L260.0,330.0 L296.0,330.0 L332.0,330.0 L368.0,330.0 L404.0,330.0 L440.0,330.0 L476.0,330.0 L512.0,330.0 L548.0,330.0 L584.0,330.0 L620.0,330.0 L656.0,330.0 L692.0,330.0 L728.0,330.0 L764.0,330.0 L800.0,330.0 L836.0,330.0 L872.0,330.0 L908.0,330.0 L944.0,330.0 L980.0,330.0 L1016.0,330.0 L1052.0,330.0 L1088.0,330.0 L1124.0,330.0 L1160.0,130.0 L1160.0,330 L80.0,330 Z" fill="url(#area)"/>
+<path d="M80.0,330.0 L116.0,330.0 L152.0,330.0 L188.0,330.0 L224.0,330.0 L260.0,330.0 L296.0,330.0 L332.0,330.0 L368.0,330.0 L404.0,330.0 L440.0,330.0 L476.0,330.0 L512.0,330.0 L548.0,330.0 L584.0,330.0 L620.0,330.0 L656.0,330.0 L692.0,330.0 L728.0,330.0 L764.0,330.0 L800.0,330.0 L836.0,330.0 L872.0,330.0 L908.0,330.0 L944.0,330.0 L980.0,330.0 L1016.0,330.0 L1052.0,330.0 L1088.0,330.0 L1124.0,330.0 L1160.0,130.0" fill="none" stroke="#5AE0FF" stroke-width="2.5" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="4000" stroke-dashoffset="4000"><animate attributeName="stroke-dashoffset" values="4000;0" dur="3s" fill="freeze"/></path>
+<circle cx="80.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-24</title></circle>
+<circle cx="116.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-25</title></circle>
+<circle cx="152.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-26</title></circle>
+<circle cx="188.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-27</title></circle>
+<circle cx="224.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-28</title></circle>
+<circle cx="260.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-29</title></circle>
+<circle cx="296.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-30</title></circle>
+<circle cx="332.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-10-31</title></circle>
+<circle cx="368.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-01</title></circle>
+<circle cx="404.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-02</title></circle>
+<circle cx="440.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-03</title></circle>
+<circle cx="476.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-04</title></circle>
+<circle cx="512.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-05</title></circle>
+<circle cx="548.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-06</title></circle>
+<circle cx="584.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-07</title></circle>
+<circle cx="620.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-08</title></circle>
+<circle cx="656.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-09</title></circle>
+<circle cx="692.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-10</title></circle>
+<circle cx="728.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-11</title></circle>
+<circle cx="764.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-12</title></circle>
+<circle cx="800.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-13</title></circle>
+<circle cx="836.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-14</title></circle>
+<circle cx="872.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-15</title></circle>
+<circle cx="908.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-16</title></circle>
+<circle cx="944.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-17</title></circle>
+<circle cx="980.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-18</title></circle>
+<circle cx="1016.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-19</title></circle>
+<circle cx="1052.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-20</title></circle>
+<circle cx="1088.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-21</title></circle>
+<circle cx="1124.0" cy="330.0" r="3.5" fill="#0D1117" stroke="#8F6BFF" stroke-width="2"><title>0 on 2026-11-22</title></circle>
+<circle cx="1160.0" cy="130.0" r="3.5" fill="#0D1117" stroke="#F5B800" stroke-width="2"><title>1 on 2026-11-23</title></circle>
+<text x="1164" y="56" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#9AA3C7">LAST 31 DAYS</text><text x="1164" y="88" text-anchor="end" class="sans" font-size="26" fill="#5AE0FF" filter="url(#glow)">1</text></svg>
