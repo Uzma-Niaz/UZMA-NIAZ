@@ -392,6 +392,7 @@
 <rect x="1104" y="150" width="15" height="15" rx="3" fill="#161B2E"><title>0 on 2026-11-22</title></rect>
 <rect x="1104" y="169" width="15" height="15" rx="3" fill="#4D3AA3"><title>1 on 2026-11-23</title></rect>
 <rect x="1104" y="188" width="15" height="15" rx="3" fill="#161B2E"><title>0 on 2026-11-24</title></rect>
+<rect x="1104" y="207" width="15" height="15" rx="3" fill="#161B2E"><title>0 on 2026-11-25</title></rect>
 <text x="80" y="181" class="mono" font-size="11" fill="#9AA3C7">Mon</text>
 <text x="80" y="219" class="mono" font-size="11" fill="#9AA3C7">Wed</text>
 <text x="80" y="257" class="mono" font-size="11" fill="#9AA3C7">Fri</text>
@@ -409,5 +410,5 @@
 <text x="971" y="140" class="mono" font-size="11" fill="#9AA3C7">Oct</text>
 <text x="1047" y="140" class="mono" font-size="11" fill="#9AA3C7">Nov</text>
 <text x="744" y="56" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#9AA3C7">CONTRIBUTIONS · 12 MO</text><text x="744" y="88" text-anchor="end" class="sans" font-size="26" fill="#5AE0FF" filter="url(#glow)">13</text>
-<text x="954" y="56" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#9AA3C7">CURRENT STREAK</text><text x="954" y="88" text-anchor="end" class="sans" font-size="26" fill="#F5B800" filter="url(#glow)">1 d</text>
+<text x="954" y="56" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#9AA3C7">CURRENT STREAK</text><text x="954" y="88" text-anchor="end" class="sans" font-size="26" fill="#F5B800" filter="url(#glow)">0 d</text>
 <text x="1164" y="56" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#9AA3C7">LONGEST STREAK</text><text x="1164" y="88" text-anchor="end" class="sans" font-size="26" fill="#8F6BFF" filter="url(#glow)">3 d</text><rect x="56" y="150" width="60" height="133" fill="#5AE0FF" opacity=".08"><animate attributeName="x" values="56;1123" dur="9s" repeatCount="indefinite"/></rect><text x="1040" y="314" text-anchor="end" class="mono" font-size="11" fill="#9AA3C7">less</text><rect x="1050" y="303" width="14" height="14" rx="3" fill="#161B2E"/><rect x="1069" y="303" width="14" height="14" rx="3" fill="#2E2366"/><rect x="1088" y="303" width="14" height="14" rx="3" fill="#4D3AA3"/><rect x="1107" y="303" width="14" height="14" rx="3" fill="#6E52D6"/><rect x="1126" y="303" width="14" height="14" rx="3" fill="#8F6BFF"/><text x="1150" y="314" class="mono" font-size="11" fill="#9AA3C7">more</text></svg>
